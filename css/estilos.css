@@ -11,6 +11,26 @@ html {
 .main-menu {
   background-color: black; }
 
+.S1 {
+  background-color: #495057;
+  height: 70vh;
+  width: 100%; }
+
+.S2 {
+  background-color: #212529;
+  height: 70vh;
+  width: 100%; }
+
+.S3 {
+  background-color: #6C757D;
+  height: 70vh;
+  width: 100%; }
+
+.S4 {
+  background-color: #343A40;
+  height: 70vh;
+  width: 100%; }
+
 /* IMPORT SASS */
 .main-header {
   width: 100%;
@@ -44,6 +64,15 @@ ul li {
 
 a {
   text-decoration: none; }
+
+.main-footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 100%;
+  font-size: 1.3rem; }
 
 /* Despues de los 600px se cambia el header de column o row */
 @media (min-width: 600px) {

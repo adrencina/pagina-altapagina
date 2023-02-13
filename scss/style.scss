@@ -14,8 +14,42 @@ html{
     background-color: black;
 }
 
+.S1{
+    background-color: #495057;
+    height: 70vh;
+    width: 100%;
+}
+
+.S2{
+    background-color: #212529;
+    height: 70vh;
+    width: 100%;
+}
+
+.S3{
+    background-color: #6C757D;
+    height: 70vh;
+    width: 100%;
+}
+
+.S4{
+    background-color: #343A40;
+    height: 70vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
 /* IMPORT SASS */
 @import "menu-nav";
+@import "footer";
+@import "variables";
 @import "MQ-tablet";
 @import "MQ-desktop";
 /* END IMPORT SASS */
