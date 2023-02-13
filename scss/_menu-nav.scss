@@ -1,0 +1,39 @@
+
+.main-header{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.img-logo{
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul li{
+    margin: 5px 9px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

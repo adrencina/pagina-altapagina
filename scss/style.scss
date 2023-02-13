@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+.main-menu{
+    background-color: black;
+}
+
+/* IMPORT SASS */
+@import "menu-nav";
+@import "MQ-tablet";
+@import "MQ-desktop";
+/* END IMPORT SASS */

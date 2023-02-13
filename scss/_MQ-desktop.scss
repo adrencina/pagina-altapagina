@@ -1,0 +1,15 @@
+/* Despues de los 900px se cambia el header de column o row */
+
+@media (min-width: 900px){
+    .main-menu{
+        background-color: black;
+    }
+    .main-header{
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        h1{
+            font-size: 2.8rem;
+        }
+    }
+}

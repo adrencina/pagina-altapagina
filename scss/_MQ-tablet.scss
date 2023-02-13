@@ -1,0 +1,16 @@
+
+/* Despues de los 600px se cambia el header de column o row */
+
+@media (min-width: 600px){
+    .main-menu{
+        background-color: black;
+    }
+    .main-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+
