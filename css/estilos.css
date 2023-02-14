@@ -11,6 +11,13 @@ html {
 .main-menu {
   background-color: black; }
 
+h1 {
+  font-size: 2rem; }
+
+a .img-logo {
+  width: 35px;
+  height: 35px; }
+
 .S1 {
   background-color: #495057;
   height: 70vh;
@@ -31,7 +38,23 @@ html {
   height: 70vh;
   width: 100%; }
 
+/* Estilos de Secciones */
+.S1-fondo {
+  position: relative;
+  z-index: 1;
+  top: 73px;
+  width: 100%; }
+
+img {
+  width: 100%; }
+
 /* IMPORT SASS */
+.main-menu {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: black; }
+
 .main-header {
   width: 100%;
   height: auto;
@@ -81,7 +104,12 @@ a {
   .main-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  h1 {
+    font-size: 2.5rem; }
+  a .img-logo {
+    width: 50px;
+    height: 50px; } }
 
 /* Despues de los 900px se cambia el header de column o row */
 @media (min-width: 900px) {
@@ -92,6 +120,13 @@ a {
     margin: 0 auto;
     font-size: 1.5rem; }
     .main-header h1 {
-      font-size: 2.8rem; } }
+      font-size: 2.8rem; }
+  .S1-fondo {
+    position: relative;
+    z-index: 1;
+    top: 73px;
+    width: 100%; }
+  img {
+    width: 100%; } }
 
 /* END IMPORT SASS */

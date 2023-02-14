@@ -14,6 +14,14 @@ html{
     background-color: black;
 }
 
+h1{
+    font-size: 2rem;
+}
+a .img-logo{
+    width: 35px;
+    height: 35px;
+}
+
 .S1{
     background-color: #495057;
     height: 70vh;
@@ -38,8 +46,16 @@ html{
     width: 100%;
 }
 
-
-
+/* Estilos de Secciones */
+.S1-fondo{
+    position: relative;
+    z-index: 1;
+    top: 73px;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
 
 
 

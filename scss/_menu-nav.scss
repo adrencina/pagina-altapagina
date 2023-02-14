@@ -1,4 +1,9 @@
-
+.main-menu{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: black;
+}
 .main-header{
     width: 100%;
     height: auto;
