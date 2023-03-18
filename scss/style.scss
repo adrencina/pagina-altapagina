@@ -29,13 +29,32 @@ html{
 
 .S2{
     background-color: #212529;
-    height: 70vh;
+    height: 50vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    h2{
+        padding: 5px;
+    }
     .panel-intro{
         display: grid;
         grid-template-columns: repeat(4, 2.5fr);
         gap: 20px;
-        margin: 0 auto;
+        width: 80vw;
+        height: 40vh;
+        margin: 20px auto;
+        div h3{
+            text-align: center;
+            margin: 15px;
+        }
+        .icon-card{
+            border: solid 0.1px white;
+            border-radius: 3px;
+
+        }
     }
 }
 
